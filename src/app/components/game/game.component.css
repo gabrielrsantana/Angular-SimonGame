@@ -1,22 +1,31 @@
-p {
-  font-size: 2rem;
+p{
+    font-size:2rem;
 }
 
-.container {
-  width: 480px;
-  margin: 0 auto;
+.container{
+    width: 500px;
+    margin: 0 auto;    
+}
+.flex{
+    display: flex;
+    margin-bottom: 2rem;
 }
 
-.flex {
-  display: flex;
-  margin: 2rem;
+.center{
+   justify-content: center;
+   align-items: baseline;
 }
 
-.center {
-  justify-content: center;
-  align-items: baseline;
+.around{
+    justify-content: space-around;
 }
 
-.middle {
-  justify-content: space-around;
+.middle{
+    align-items: center;
+}
+
+.fixed-top-right{
+    position: fixed;
+    top: 0;
+    right: 0;
 }

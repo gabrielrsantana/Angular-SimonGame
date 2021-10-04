@@ -1,43 +1,106 @@
 button {
-  width: 5.6rem;
-  height: 5.6rem;
-  border: 0.24rem solid;
-  border-radius: 4rem;
-  background-color: var(--black);
+    width: 6rem;
+    height: 6rem;
+    border: 0.2rem solid;
+    border-radius: 4rem;
+    background-color: var(--black);
 }
 
+/* imagens dos professores e alunos */
 .green {
-  border-color: var(--green);
+    border-color: var(--green);
+    background-color: var(--bg-button);
+    background-image: url("../../../../assets/img/filipe.png");
+    background-repeat: space;
+    background-position: center;
+    background-size: cover;
 }
 
 .green:active,
-.green.active {
-  background-color: var(--green);
+.green.trigger {
+    background-color: var(--green);
 }
 
+.green:hover {
+    background-color: var(--green-hover);
+}
+
+/* imagens dos professores e alunos */
 .blue {
-  border-color: var(--blue);
+    border-color: var(--blue);
+    background-color: var(--bg-button);
+    background-image: url("../../../../assets/img/lucas.png");
+    background-repeat: space;
+    background-position: center;
+    background-size: cover;
 }
 
 .blue:active,
-.blue.active {
-  background-color: var(--blue);
+.blue.trigger {
+    background-color: var(--blue);
+}
+
+.blue:hover {
+    background-color: var(--blue-hover);
 }
 
 .red {
-  border-color: var(--red);
+    border-color: var(--red);
+    background-color: var(--bg-button);
+    background-image: url("../../../../assets/img/gustavo.png");
+    background-repeat: space;
+    background-position: center;
+    background-size: cover;
 }
 
 .red:active,
-.red.active {
-  background-color: var(--red);
+.red.trigger {
+    background-color: var(--red);
+}
+
+
+.red:hover {
+    background-color: var(--red-hover);
 }
 
 .yellow {
-  border-color: var(--yellow);
+    border-color: var(--yellow);
+    background-color: var(--bg-button);
+    background-image: url("../../../../assets/img/sayure.png");
+    background-repeat: space;
+    background-position: center;
+    background-size: cover;
 }
 
 .yellow:active,
-.yellow.active {
-  background-color: var(--yellow);
+.yellow.trigger {
+    background-color: var(--yellow);
+}
+
+.yellow:hover {
+    background-color: var(--yellow-hover);
+}
+
+
+.green:hover,
+.blue:hover,
+.red:hover,
+.yellow:hover {
+box-shadow: rgb(145, 145, 145) 0 0 15px;
+}
+
+
+
+.green.trigger,
+.blue.trigger,
+.red.trigger,
+.yellow.trigger {
+    transform: scale(1.1);
+}
+
+.green:active,
+.blue:active,
+.red:active,
+.yellow:active {
+    transform: scale(0.97);
 }

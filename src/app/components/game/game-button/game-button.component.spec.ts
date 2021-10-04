@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { GameButtonComponent } from './game-button.component';
 
@@ -6,12 +6,12 @@ describe('GameButtonComponent', () => {
   let component: GameButtonComponent;
   let fixture: ComponentFixture<GameButtonComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
       declarations: [ GameButtonComponent ]
     })
     .compileComponents();
-  }));
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(GameButtonComponent);
