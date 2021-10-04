@@ -1,4 +1,6 @@
 # Simon
+Project based on Kelvin Mai´s youtube video Simon game, with some changes in audio e pictures, start screen,and localstorage saving game states.
+Team : Gabriel Rocha, Luca , Nath Bozzon, Wanessa.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
 
