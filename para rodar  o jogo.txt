@@ -1,0 +1,2 @@
+digitar no prompt:
+ npm install
